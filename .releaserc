@@ -1,6 +1,8 @@
 branches:
   - name: "main"
 
+tagFormat: "jk${version}"
+
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
